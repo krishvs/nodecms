@@ -1,0 +1,16 @@
+{>"layouts/dashboard/index"/}
+{<bodyContent}
+<section class="header-11-sub ">
+<div class="container">
+<div class="row">  
+	<div class="col-md-4">
+		<h4>your posts</h4>
+	</div>
+	<div class="col-md-8">
+		<h4>This is your dashboard</h4>
+		<p>You can create the pages of your website from your dashboard</p>
+	</div>  
+</div>
+</div>
+</section>
+{/bodyContent}

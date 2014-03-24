@@ -1,0 +1,24 @@
+{
+  "name": "starterTemplate",
+  "version": "0.0.0",
+  "description": "a starter template for expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "passport":"",
+    "passport-local":"",
+    "express-subdomain-handler":"",
+    "clayjs":"",
+    "nodemailer":"",
+    "socket.io":""
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "clay" : "bin/clay.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}

@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="/portal/flat-ui/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="/portal/flat-ui/bootstrap/css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="/portal/flat-ui/css/flat-ui.css">
+		<!-- Using only with Flat-UI (free)-->
+		<link rel="stylesheet" href="/portal/common-files/css/icon-font.css">
+		<!-- end -->
+		<link rel="stylesheet" href="/portal/common-files/css/animations.css">
+	</head>
+	<body>
+	{>"layouts/portal/header"/}
+	{+bodyContent/}
+	{>"layouts/portal/footer"/}
+	<script src="/portal/common-files/js/jquery-1.10.2.min.js"></script>
+	<script src="/portal/flat-ui/js/bootstrap.min.js"></script>	
+	<script src="/portal/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="/portal/common-files/js/modernizr.custom.js"></script>
+	<script src="/portal/common-files/js/page-transitions.js"></script>
+	<script src="/portal/common-files/js/easing.min.js"></script>
+	<script src="/portal/common-files/js/jquery.svg.js"></script>
+	<script src="/portal/common-files/js/jquery.svganim.js"></script>
+	<script src="/portal/common-files/js/jquery.parallax.min.js"></script>
+	<script src="/portal/common-files/js/startup-kit.js"></script>
+	</body>
+</html>

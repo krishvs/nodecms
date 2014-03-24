@@ -1,0 +1,31 @@
+{>"layouts/portal/index"/}
+{<bodyContent}
+<section class="header-11-sub ">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">
+                    Creating your account
+                </div>
+                <div class="panel-body">
+                    <form role="form" action="/user" method="post">
+                        <fieldset>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="username" name="username" type="username" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                            </div>
+                            <!-- Change this to a button or input when using this as a form -->
+                           <input type="submit" class="btn btn-positive btn-block" value="register">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+{/bodyContent}
+
