@@ -4,11 +4,16 @@
 <section class="header-11-sub ">
 <div class="container">
 <div class="row">    
-	<div class="col-md-4"></div>
+	<div class="col-md-4">
+		<h4>This is where all your new posts are created</h4>
+	</div>
 	<div class="col-md-8">
-		<textarea name="editor1" id="editor1" rows="10" cols="80">
-		                This is my textarea to be replaced with CKEditor.
-		</textarea>
+		<form action="/post" method ="post" >
+			<textarea name="post" id="editor1" rows="10" cols="80">
+			                This is my textarea to be replaced with CKEditor.
+			</textarea>
+			<button type="submit" class="btn btn-block btn-info">Create Post</button>
+		</form>
 	</div>
 	<script type="text/javascript">
 	    window.what='hi';

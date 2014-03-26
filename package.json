@@ -12,7 +12,10 @@
     "express-subdomain-handler":"",
     "clayjs":"",
     "nodemailer":"",
-    "socket.io":""
+    "socket.io":"",
+  },
+  "engines": {
+    "node": "0.10.x"
   },
   "preferGlobal": "true",
   "bin": {

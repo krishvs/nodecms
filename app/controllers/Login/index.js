@@ -2,7 +2,7 @@ var passport = require('../../middleware/passport/index.js').passport;
 module.exports.beforeFilters = [
 	{
 		actions : ['create'],
-		method : passport.authenticate('local', { successRedirect: '/dashboard',
+		method : passport.authenticate('local', { successRedirect: '/dashboard/overview',
                                    failureRedirect: '/login'})
 	}
 ]

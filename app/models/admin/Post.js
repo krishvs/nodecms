@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-  var Page = sequelize.define('Page', {
+  var Post = sequelize.define('Post', {
     id: {
          type     : DataTypes.INTEGER,
          allowNull: false,
@@ -17,10 +17,12 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        Page.belongsTo(models.SubDomain)
+        Post.belongsTo(models.SubDomain)
+        Post.belongsTo(models.User)
+        Post.belongsTo(models.Account)
       }
     }
   })
  
-  return Page
+  return Post
 }

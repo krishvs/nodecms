@@ -1,7 +1,7 @@
 module.exports.routes = {
 	'root' : {
 		verb : 'get',
- 		to : 'dashboard',
+ 		to : 'Account',
  		action : 'index'
 	},
 	'/home' : {
@@ -30,14 +30,13 @@ module.exports.routes = {
  		action : 'logout'
  	},
  	'/dashboard' : {
- 		resources : 'dashboard',
- 		nested : {
- 			'/whats' : {
- 				resources : 'Login'
+ 		namespace : {
+ 			'/overview' : {
+ 				resources : 'Account'
+ 			},
+ 			'/post' : {
+ 				resources : 'Post'
  			}
  		}
- 	},
- 	'/post' :{
- 		resources : 'Post'
  	}
 }
